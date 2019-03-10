@@ -1,5 +1,14 @@
 # cypress-code-coverage
-a repo to help you with code coverage + cypress
+A repo to help you with code coverage + cypress
+
+## About 
+the strategy is:
+
+- instrument your app code so that coverage is generated on `window.__coverage__`
+- after cypress spec runs, use `cy.writeFile` to save the report to `.nyc_output`
+- and generate the report with `cy.exec('nyc report --reporter=html')`
+
+**you should then be able the view the html coverage report in the `coverage/` directory** 
 
 
 
