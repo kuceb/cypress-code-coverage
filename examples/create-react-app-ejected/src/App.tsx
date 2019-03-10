@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  state = {
+    clickCount: 0,
+    text: 'click me'
+  }
   render() {
     return (
       <div className="App">
@@ -19,6 +23,16 @@ class App extends Component {
           >
             Learn React
           </a>
+
+          <button className="btn" onClick={() => {
+            const clickCount = this.state.clickCount + 1
+            this.setState({clickCount})
+            if (clickCount === 2) {
+              alert('you fool!')
+            }
+            this.setState({text:'click me again'})
+          }
+            }>{this.state.text}</button>
         </header>
       </div>
     );
