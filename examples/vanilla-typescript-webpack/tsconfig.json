@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"module": "commonjs",
+		"target": "es5"
+	}
+}

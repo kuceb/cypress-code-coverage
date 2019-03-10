@@ -1,2 +1,4 @@
-.nyc_output
-node_modules
+# .nyc_output
+# node_modules
+# **/cypress/videos
+# **/cypress/screenshots
