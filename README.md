@@ -14,6 +14,10 @@ the strategy is:
 
 ## Examples
 
+### [example-for-stackoverflow](https://github.com/Bkucera/cypress-code-coverage/tree/master/examples/example-for-stackoverflow)
+Example to show the fix for [this specific stackoverflow question](https://stackoverflow.com/a/55091372/4135063)
+
+
 ### [create-react-app-ejected](https://github.com/Bkucera/cypress-code-coverage/tree/master/examples/create-react-app-ejected)
 cypress with code coverage set up on a newly-ejected [`create-react-app`](https://github.com/facebook/create-react-app)
 
