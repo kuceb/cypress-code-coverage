@@ -37,3 +37,11 @@ code coverage on a vanilla typescript & webpack project
 +  `@cypress/webpack-preprocessor`
 +  `babel-loader`
 +  `babel-plugin-istanbul`
+
+
+
+## Future
+
+- example with `ts-loader`
+- example with bundlers besides webpack
+- more tests for edge cases in cypress tests
