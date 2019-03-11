@@ -45,3 +45,7 @@ code coverage on a vanilla typescript & webpack project
 - example with `ts-loader`
 - example with bundlers besides webpack
 - more tests for edge cases in cypress tests
+
+
+## License
+MIT
